@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const startBtn = document.getElementById('startBtn');
 
-// No JS needed for now, button visible immediately
-// Placeholder in case you want to add fade-in or click events later
+  // Fade-in saga.png at 11 seconds
+  setTimeout(() => {
+    startBtn.style.opacity = '1';
+  }, 11000); // 11 seconds
+});
