@@ -19,7 +19,7 @@ html, body {
 
 /* SAGA BUTTON IMAGE */
 #startBtn {
-  width: 128px;      /* 1.7/4 of original 300px */
+  width: 64px;       /* cut in half */
   height: auto;
   cursor: pointer;
   opacity: 0;        /* invisible initially for fade-in */
