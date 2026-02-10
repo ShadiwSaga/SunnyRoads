@@ -14,13 +14,14 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: flex-end; /* button at bottom */
-  padding-bottom: 5vh;   /* adjust vertical position if needed */
+  padding-bottom: 5vh;
 }
 
 /* SAGA BUTTON IMAGE */
 #startBtn {
-  width: 300px;      /* adjust size as needed */
+  width: 128px;      /* 1.7/4 of original 300px */
   height: auto;
   cursor: pointer;
-  opacity: 1;        /* visible immediately */
+  opacity: 0;        /* invisible initially for fade-in */
+  transition: opacity 1s ease; /* fade effect */
 }
